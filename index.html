@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Testeo apa</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+      background: #0f0f0f;
+      color: white;
+    }
+
+    header {
+      background: #202020;
+      padding: 15px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 20px;
+      gap: 20px;
+    }
+
+    .video-card {
+      width: 300px;
+      background: #181818;
+      border-radius: 10px;
+      overflow: hidden;
+      transition: 0.3s;
+    }
+
+    .video-card:hover {
+      transform: scale(1.05);
+    }
+
+    video {
+      width: 100%;
+    }
+
+    .title {
+      padding: 10px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<header> YoutuEconomico</header>
+
+<div class="container">
+
+  <div class="video-card">
+    <video controls>
+      <source src="video.mp4.mp4" type="video/mp4">
+    </video>
+    <div class="title">Lumiere Expedition 33</div>
+  </div>
+
+  <div class="video-card">
+    <video controls>
+      <source src="colapso.mp4" type="video/mp4">
+    </video>
+    <div class="title">colapso Kevin Karl</div>
+  </div>
+
+ <div class="video-card">
+    <video controls>
+      <source src="esperandote.mp4" type="video/mp4">
+    </video>
+    <div class="title">Manuel Turizo Esperandote</div>
+  </div>
+
+ <div class="video-card">
+    <video controls>
+      <source src="ccc.mp4" type="video/mp4">
+    </video>
+    <div class="title">Ccc Remix</div>
+
+  </div>
+
+
+</div>
+
+</body>
+</html>
